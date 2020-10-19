@@ -1,0 +1,12 @@
+D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\bin\Debug\netcoreapp3.1\LogToCSVConverter.exe
+D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\bin\Debug\netcoreapp3.1\LogToCSVConverter.deps.json
+D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\bin\Debug\netcoreapp3.1\LogToCSVConverter.runtimeconfig.json
+D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\bin\Debug\netcoreapp3.1\LogToCSVConverter.runtimeconfig.dev.json
+D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\bin\Debug\netcoreapp3.1\LogToCSVConverter.dll
+D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\bin\Debug\netcoreapp3.1\LogToCSVConverter.pdb
+D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\obj\Debug\netcoreapp3.1\LogToCSVConverter.AssemblyInfoInputs.cache
+D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\obj\Debug\netcoreapp3.1\LogToCSVConverter.AssemblyInfo.cs
+D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\obj\Debug\netcoreapp3.1\LogToCSVConverter.csproj.CoreCompileInputs.cache
+D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\obj\Debug\netcoreapp3.1\LogToCSVConverter.dll
+D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\obj\Debug\netcoreapp3.1\LogToCSVConverter.pdb
+D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\obj\Debug\netcoreapp3.1\LogToCSVConverter.genruntimeconfig.cache
