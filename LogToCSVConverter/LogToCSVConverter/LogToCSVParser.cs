@@ -8,13 +8,25 @@ namespace LogToCSVConverter
 {
     public class LogToCSVParser
     {
-        public async Task LogParser(string[] args)
+        #region Properties
+        #endregion
+
+        #region PrivateMethods
+        #endregion
+
+        /// <summary>
+        /// Its reads the cammand line arguments and Get log files 
+        /// </summary>
+        /// <param name="args">inpunt parameter arguments as string</param>
+        /// <returns></returns>
+        #region PublicMethods
+        public void LogParser(string[] args)
         {
             if ((args.Length == 1 && args[0].Trim().ToLower() == "--help"))
             {
-                StringUtility.ShowHelpMessage();
+                Program.ShowHelpMessage();
             }
-            else if (args.Length > 0 && args.Length % 2 == 0) ///
+            else if (args.Length > 0 && args.Length % 2 == 0) /// reminder == 0
             {
                 List<InputParams> inputParams = StringUtility.ReadArgs(args);
 
@@ -30,34 +42,35 @@ namespace LogToCSVConverter
                         var outputFilePath = inputParams.Where(x => x.Command.Trim().ToLower() == "--csv").Take(1).ToList()[0].Data;
                         var logLevel = inputParams.Where(x => x.Command.Trim().ToLower() == "--log-level").ToList();
 
-                        List<string> lstFiles = FileUtility.GetFilesList(SourceDirectory);
+                        List<string> lstFiles = FileUtility.GetLogFileList(SourceDirectory);
                         Console.WriteLine("Exploring the log files");
 
                         foreach (var file in lstFiles)
                         {
                             Console.WriteLine("Processing Log File " + file);
-                            await FileProcessor.ProcessLogFiles(file, logLevel, outputFilePath);
+                            FileProcessor.AllDataProcessFromLogFile(file, logLevel, outputFilePath);
                         }
                     }
                     else
                     {
-                        StringUtility.ShowHelpMessageForInvalidInput();
+                        Program.ShowHelpMessageForInvalidInput();
+
 
                     }
                 }
                 else
                 {
-                    StringUtility.ShowHelpMessageForInvalidInput();
+                    Program.ShowHelpMessageForInvalidInput();
 
                 }
             }
             else
             {
-                StringUtility.ShowHelpMessageForInvalidInput();
+                Program.ShowHelpMessageForInvalidInput();
             }
 
-
-
         }
+
+        #endregion
     }
 }

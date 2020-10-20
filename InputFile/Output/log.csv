@@ -534,3 +534,497 @@
 06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
 06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
 07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete
+
+02,ERROR,22 Mar 2020,08:51 AM,..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,ERROR,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+
+05,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,.....mailslot_create: creating mailslot for RSVP via UDP
+06,ERROR,22 Mar 2020,08:51 AM,....mailslot_create: setsockopt(MCAST_ADD) failed - EDC8116I Address not available.
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp-udp
+06,WARN,22 Mar 2020,08:51 AM,....mailbox_register: mailbox allocated for rsvp
+07,WARN,22 Mar 2020,08:51 AM,.main: rsvpd initialization complete

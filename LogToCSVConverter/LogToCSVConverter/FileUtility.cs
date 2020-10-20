@@ -3,49 +3,63 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace LogToCSVConverter
 {
     public static class FileUtility
     {
-        public static async Task WriteDataToFile(string fullOutFilePath, List<string> allLines)
+        #region Properties
+        #endregion
+
+        #region PrivateMethods
+        #endregion
+
+        #region PublicMethods
+        /// <summary>
+        /// writes the CSV data strings to the file
+        /// </summary>
+        /// <param name="DestinationCSVFilePath">output CSV file path </param>
+        /// <param name="AllCSVLinesExtractedFromLogFile">All CSV data line extraced from log file</param>
+        /// <returns></returns>
+        #region WriteCSVDataToFile
+        public static void WriteCSVDataToFile(string DestinationCSVFilePath, List<string> AllCSVLinesExtractedFromLogFile)
         {
-            await Task.Run(
-                () =>
+            if (AllCSVLinesExtractedFromLogFile.Count > 0)
+            {
+                try
                 {
-                    if (allLines.Count > 0)
+                    // This text is added only once to the file.
+                    if (!File.Exists(DestinationCSVFilePath))
                     {
-                        try
-                        {
-                            // This text is added only once to the file.
-                            if (!File.Exists(fullOutFilePath))
-                            {
-                                // Create a file to write to.
-                                string[] header = new[] { "No , Level , Date , Time , Text" };
-                                File.WriteAllLinesAsync(fullOutFilePath, header, Encoding.UTF8);
-                                File.AppendAllLinesAsync(fullOutFilePath, allLines, Encoding.UTF8);
-                            }
-                            else
-                            {
-                                string newLine = Environment.NewLine;
-                                File.AppendAllTextAsync(fullOutFilePath, newLine, Encoding.UTF8);
-                                File.AppendAllLinesAsync(fullOutFilePath, allLines, Encoding.UTF8);
-                            }
-                            Console.WriteLine("CSV file created/Updated Successfully-" + fullOutFilePath);
-                        }
-                        catch (Exception Ex)
-                        {
-                            Console.WriteLine(Ex.ToString());
-                        }
-
+                        // Create a file to write to.
+                        string[] header = new[] { "No , Level , Date , Time , Text" };
+                        File.WriteAllLinesAsync(DestinationCSVFilePath, header, Encoding.UTF8);
+                        File.AppendAllLinesAsync(DestinationCSVFilePath, AllCSVLinesExtractedFromLogFile, Encoding.UTF8);
                     }
+                    else
+                    {
+                        string newLine = Environment.NewLine;
+                        File.AppendAllTextAsync(DestinationCSVFilePath, newLine, Encoding.UTF8);
+                        File.AppendAllLinesAsync(DestinationCSVFilePath, AllCSVLinesExtractedFromLogFile, Encoding.UTF8);
+                    }
+                    Console.WriteLine("CSV file created/Updated Successfully-" + DestinationCSVFilePath);
                 }
-                );
+                catch (Exception Ex)
+                {
+                    Console.WriteLine(Ex.ToString());
+                }
 
+            }
         }
+        #endregion
 
-        public static List<string> GetFilesList(string sourceDirectory)
+        /// <summary>
+        /// Get the list of log file 
+        /// </summary>
+        /// <param name="sourceDirectory"></param>
+        /// <returns>List of Files</returns>
+        #region GetLogFileList
+        public static List<string> GetLogFileList(string sourceDirectory)
         {
             List<string> lstFiles = new List<string>();
             if (Directory.Exists(sourceDirectory))
@@ -58,6 +72,8 @@ namespace LogToCSVConverter
             }
             return lstFiles;
         }
+        #endregion
 
+        #endregion
     }
 }

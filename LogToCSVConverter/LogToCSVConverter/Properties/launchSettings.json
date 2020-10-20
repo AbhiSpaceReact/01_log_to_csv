@@ -2,7 +2,7 @@
   "profiles": {
     "LogToCSVConverter": {
       "commandName": "Project",
-      "commandLineArgs": "--log-dir D:\\Office\\OfficeAssignment\\01_log_to_csv\\InputFile --log-level error --log-level warn --csv D:\\Office\\OfficeAssignment\\01_log_to_csv\\InputFile\\Output1\\log.csv "
+      "commandLineArgs": "--log-dir D:\\Office\\OfficeAssignment\\01_log_to_csv\\InputFile --log-level error --log-level warn --csv D:\\Office\\OfficeAssignment\\01_log_to_csv\\InputFile\\Output\\log.csv "
     }
   }
 }

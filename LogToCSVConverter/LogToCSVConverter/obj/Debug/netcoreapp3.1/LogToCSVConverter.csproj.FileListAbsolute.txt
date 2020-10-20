@@ -10,3 +10,4 @@ D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\obj
 D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\obj\Debug\netcoreapp3.1\LogToCSVConverter.dll
 D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\obj\Debug\netcoreapp3.1\LogToCSVConverter.pdb
 D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\obj\Debug\netcoreapp3.1\LogToCSVConverter.genruntimeconfig.cache
+D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\obj\Debug\netcoreapp3.1\LogToCSVConverter.csprojAssemblyReference.cache
