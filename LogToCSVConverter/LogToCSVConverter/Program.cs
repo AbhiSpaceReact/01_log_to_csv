@@ -63,21 +63,6 @@ namespace LogToCSVConverter
         #region PrivateMethods
 
         /// <summary>
-        /// RUN
-        /// </summary>
-        /// <param name="outputFilePathForCSVFile"></param>
-        /// <param name="logLevel"></param>
-        /// <param name="lstLogFileList"></param>
-        private static void ProcessLogFilesConvertIntoCSV(string outputFilePathForCSVFile, List<InputParams> logLevel, List<string> lstLogFileList)
-        {
-
-            //PassTheListOfFilesInBelowConstroctor
-            LogToCSVParser logToCSVParser = new LogToCSVParser(lstLogFileList, logLevel, outputFilePathForCSVFile);
-            logToCSVParser.ParseLogFilesToCsvAsPerGivenLogLevel();
-            OpenOutputCSVFile(outputFilePathForCSVFile);
-        }
-        
-        /// <summary>
         /// For Serilog startup function which add json file path 
         /// </summary>
         private static void SetupStaticLogger()
@@ -93,6 +78,23 @@ namespace LogToCSVConverter
         }
 
         /// <summary>
+        /// Process Log Files Convert Into CSV
+        /// </summary>
+        /// <param name="outputFilePathForCSVFile"></param>
+        /// <param name="logLevel"></param>
+        /// <param name="lstLogFileList"></param>
+        private static void ProcessLogFilesConvertIntoCSV(string outputFilePathForCSVFile, List<InputParams> logLevel, List<string> lstLogFileList)
+        {
+
+            //PassTheListOfFilesInBelowConstroctor
+            LogToCSVParser logToCSVParser = new LogToCSVParser(lstLogFileList, logLevel, outputFilePathForCSVFile);
+            logToCSVParser.ParseLogFilesToCsvAsPerGivenLogLevel();
+            OpenOutputCSVFile(outputFilePathForCSVFile);
+        }
+        
+        
+
+        /// <summary>
             /// Open Output file for .csv file
             /// </summary>
             /// <param name="outputFilePathForCSVFile"></param>
@@ -100,7 +102,6 @@ namespace LogToCSVConverter
         {
             System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo()
             {
-                //FileName = Path.GetDirectoryName(outputFilePathForCSVFile),//For Folder 
                 FileName = outputFilePathForCSVFile,
                 UseShellExecute = true,
                 Verb = "open"
@@ -120,7 +121,8 @@ namespace LogToCSVConverter
             outputFilePathForCSVFile = listOfInputArguments.Where(x => x.Command.Trim().ToLower() == "--csv").Take(1).ToList()[0].Data;
             logLevel = listOfInputArguments.Where(x => x.Command.Trim().ToLower() == "--log-level").ToList();
         }
-       
+
+
         #endregion
 
         #region PublicMethods
@@ -131,7 +133,7 @@ namespace LogToCSVConverter
         public static void ShowHelpMessageForInvalidInput()
         {
 
-            Log.Information(Messages.InvalidInputParameter);
+            Log.Error(Messages.InvalidInputParameter);
         }
 
         /// <summary>
@@ -140,7 +142,7 @@ namespace LogToCSVConverter
         #region ShowHelpMessage
         public static void ShowHelpMessage()
         {
-            Log.Information(Messages.ShowHelpMessages);
+            Console.WriteLine(Messages.ShowHelpMessages);
         }
         #endregion
         #endregion

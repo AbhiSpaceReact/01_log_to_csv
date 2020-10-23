@@ -28,10 +28,10 @@ namespace LogToCSVConverter
         /// <returns></returns>
         #region LogDataValidationAndAppendDataForCSVFile
 
-        public static StringBuilder AddLogDataToCSVDataLine(string data, int MaxDataLength) //.//AddLogData As String in the original string.
+        public static StringBuilder AddLogDataToCSVDataLine(string data, int MaxDataLength) //AddLogData As String in the original string.
         {
             StringBuilder strOutput = new StringBuilder();
-            if (MaxDataLength >= 21)// For Log Data                   //.//check string length in log file 
+            if (MaxDataLength >= 21)   //check string length in log data 
             {
                 var logInfo = data[21..MaxDataLength].Trim();
                 if (logInfo.Length > 1)
@@ -97,7 +97,7 @@ namespace LogToCSVConverter
             int dataLengthToTrimForTime = 15;
             int startingIndexToGetTImeInfoFromLogLine = 6;
             int maxLengthOfTimeField = 8;
-            if (MaxDataLength >= dataLengthToTrimForTime)// Check length For Time              // here check string length in max Data length for Date 
+            if (MaxDataLength >= dataLengthToTrimForTime)// here check string length in max Data length for Date 
             {
                 var timeDataFromFile = data.Substring(startingIndexToGetTImeInfoFromLogLine, maxLengthOfTimeField).Trim();         //Substring Method (startIndex,length)
 

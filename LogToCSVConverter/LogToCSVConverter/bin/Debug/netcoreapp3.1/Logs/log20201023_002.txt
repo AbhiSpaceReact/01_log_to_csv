@@ -1,51 +1,3 @@
-2020-10-23 12:49:48 [INF] Get log files
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Creating Constroctor for Log to CSV Parser
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Exploring the log files
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Processing Log File D:\Office\OfficeAssignment\01_log_to_csv\InputFile\app.log
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Context No Found 1
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Context No Found 2
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Context No Found 3
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Context No Found 4
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
-2020-10-23 12:49:48 [INF] Invalid date5
-{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
 2020-10-23 12:49:48 [INF] Invalid date5
 {"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
 2020-10-23 12:49:48 [INF] Invalid date5
@@ -151,6 +103,54 @@
 2020-10-23 12:49:48 [INF] Invalid date5
 {"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
 2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Context No Found 7
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Context No Found 8
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Context No Found 9
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Context No Found 10
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Invalid date5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:49:48 [INF] Context No Found 11
 {"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
 2020-10-23 12:49:48 [INF] Invalid date5
 {"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}

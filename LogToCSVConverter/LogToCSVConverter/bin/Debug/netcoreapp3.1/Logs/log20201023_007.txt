@@ -1,0 +1,6 @@
+2020-10-23 12:50:50 [INF] Invalid date 5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:50:50 [INF] Invalid date 5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}
+2020-10-23 12:50:50 [INF] Invalid date 5
+{"MachineName":"ABHISHEKL-PC","ApplicationName":"LogToCSVConverter","Environment":"Int"}

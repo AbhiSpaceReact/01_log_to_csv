@@ -93,6 +93,7 @@ namespace LogToCSVConverter
             List<string> lstFiles = new List<string>();
             if (Directory.Exists(sourceDirectory))
             {
+                Log.Information("Source directory Not Found ", sourceDirectory);
                 lstFiles = Directory.GetFiles(sourceDirectory, "***.log***").ToList();
                 if (lstFiles.Count==0)
                 {

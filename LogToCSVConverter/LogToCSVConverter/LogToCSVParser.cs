@@ -39,8 +39,6 @@ namespace LogToCSVConverter
 
         #region PublicMethods
        
-
-
         ///// <summary>
         /////  Parse log file to csv As per log level 
         ///// </summary>

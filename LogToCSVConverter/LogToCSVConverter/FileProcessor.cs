@@ -68,7 +68,7 @@ namespace LogToCSVConverter
 
                 foreach (var Line in Lines)
                 {
-
+                    Log.Information("Lines Not found ", Lines);
                     strOutput = new StringBuilder();
 
                     MaxDataLength = Line.Length;
@@ -81,6 +81,7 @@ namespace LogToCSVConverter
 
                         if (int.TryParse(Line, out ContaxtNumber))// if the row is contaxt number row, then get the number & move to next record. 
                         {
+                            Log.Information("Context No Found " + ContaxtNumber);
                             appendContaxtNumber = Line.Trim();
                             continue;
                         }
@@ -90,6 +91,7 @@ namespace LogToCSVConverter
 
                             if (MaxDataLength >= dataLengthToTrimForDate)// check Max Data length For Date
                             {
+                                Log.Information("Invalid date " + dataLengthToTrimForDate);
                                 concatinateMMDDYYYY = Line.Substring(0, dataLengthToTrimForDate).Trim() + "/" + year;
 
                                 if (DateTime.TryParseExact(concatinateMMDDYYYY, inputDateFormat, CultureInfo.InvariantCulture,
