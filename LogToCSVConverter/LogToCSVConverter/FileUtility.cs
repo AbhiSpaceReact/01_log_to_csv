@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LogToCSVConverter.Model;
+using Serilog;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -15,6 +17,33 @@ namespace LogToCSVConverter
         #endregion
 
         #region PublicMethods
+
+        /// <summary>
+        /// Its reads the cammand line arguments and create command and data combination and append to a list or return List of arguments
+        /// </summary>
+        /// <param name="args">input parameter argument as string</param>
+        /// <returns>List of arguments<InputParams></returns>
+        #region ReadCommandLineArgs
+        public static List<InputParams> ReadCommandLineArgs(string[] args)
+        {
+            List<InputParams> lstArgs = new List<InputParams>();
+            if (args.Length > 0) //Check lenght of argument
+            {
+                for (int i = 0; i < args.Length; i++)
+                {
+                    InputParams inputParams = new InputParams
+                    {
+                        Command = args[i],
+                        Data = args[++i]
+                    };
+
+                    lstArgs.Add(inputParams);
+                }
+            }
+            return lstArgs;
+        }
+        #endregion
+
         /// <summary>
         /// writes the CSV data strings to the file
         /// </summary>
@@ -42,11 +71,11 @@ namespace LogToCSVConverter
                         File.AppendAllTextAsync(DestinationCSVFilePath, newLine, Encoding.UTF8);
                         File.AppendAllLinesAsync(DestinationCSVFilePath, AllCSVLinesExtractedFromLogFile, Encoding.UTF8);
                     }
-                    Console.WriteLine("CSV file created/Updated Successfully-" + DestinationCSVFilePath);
+                    Log.Information("CSV file created/Updated Successfully-" + DestinationCSVFilePath);
                 }
                 catch (Exception Ex)
                 {
-                    Console.WriteLine(Ex.ToString());
+                    Log.Error(Ex.ToString());
                 }
 
             }
@@ -65,11 +94,31 @@ namespace LogToCSVConverter
             if (Directory.Exists(sourceDirectory))
             {
                 lstFiles = Directory.GetFiles(sourceDirectory, "***.log***").ToList();
+                if (lstFiles.Count==0)
+                {
+                    Log.Error("No Log File Exists at "+ sourceDirectory);
+                }
             }
             else
             {
-                Console.WriteLine("No such Directory Exists");
+                Log.Error("No such Directory Exists");
             }
+            return lstFiles;
+        }
+        #endregion
+
+        /// <summary>
+        /// Read Log of Log Files
+        /// </summary>
+        /// <param name="SourceDirectoryPathForLogFiles">Source Directory Path For Log Files</param>
+        /// <returns>List of Files</returns>
+        #region GetLogOfLogFiles
+        public static List<string> GetListOfLogFiles(string SourceDirectoryPathForLogFiles)
+        {
+            Log.Information("Get log files");
+
+           List<string> lstFiles = GetLogFileList(SourceDirectoryPathForLogFiles);
+
             return lstFiles;
         }
         #endregion

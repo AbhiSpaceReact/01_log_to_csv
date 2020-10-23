@@ -1,4 +1,5 @@
 ﻿using LogToCSVConverter.Model;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -10,28 +11,38 @@ namespace LogToCSVConverter
 {
     public static class FileProcessor
     {
+        
         #region Properties
         #endregion
 
         #region PrivateMethods
+        #region AppendContextNumberToCSVRowIfAvailable
+        private static void AppendContextNumberToCSVRowIfAvailable(StringBuilder strOutput, string appendContaxtNumber)
+        {
+            if (appendContaxtNumber.Trim() != "")// If any Incoming contaxt number is there, then add it to data row.
+            {
+                strOutput.Append(appendContaxtNumber + ",");
+            }
+        }
+
+        #endregion
         #endregion
 
-        #region AllDataProcessFromLogFile
-
+        #region PublicMethods
         /// <summary>
-        /// All Data Process From the Log file
+        /// All Data Process From the Log file 
         /// </summary>
         /// <param name="fullInputFilePath">Full Input data File path</param> 
         /// <param name="logLevel"></param>
         /// <param name="fullOutPutFilePath">Full Output data File Path </param>
         /// <returns>its not return</returns>
+        #region AllDataProcessFromLogFile
         public static void AllDataProcessFromLogFile(string fullInputFilePath, List<InputParams> logLevel, string fullOutPutFilePath)
         {
             if (File.Exists(fullInputFilePath))
             {
 
                 StringBuilder strOutput;
-                //string Line = "";
                 var MaxDataLength = 0;
                 int ContaxtNumber = 0;
 
@@ -45,8 +56,12 @@ namespace LogToCSVConverter
                 List<string> outputListOfCSVData = new List<string>();
 
                 string appendContaxtNumber = "";
-                string appendLogLevel = "";
+                string appendLogLevelForTheDatWhichAreInSecondRowInLogFile = "";
                 bool needToIncludeRow = false;
+                int dataLengthToTrimForDate = 5;
+                int dataLengthToTrimForLogLevel = 20;
+                int startingIndexToGetLogLevelInfoFromLogLine = 15;
+                int maxLengthOfLogLevelField = 5;
 
                 var Lines = File.ReadAllLines(fullInputFilePath); //Read all line from of the file 
 
@@ -71,26 +86,24 @@ namespace LogToCSVConverter
                         }
                         else
                         {
-                            if (appendContaxtNumber.Trim() != "")// If any Incoming contaxt number is there, then add it to data row.
-                            {
-                                strOutput.Append(appendContaxtNumber + ",");
-                            }
+                            AppendContextNumberToCSVRowIfAvailable(strOutput, appendContaxtNumber);
 
-                            if (MaxDataLength >= 5)// For Date
+                            if (MaxDataLength >= dataLengthToTrimForDate)// check Max Data length For Date
                             {
-                                concatinateMMDDYYYY = Line.Substring(0, 5).Trim() + "/" + year;
+                                concatinateMMDDYYYY = Line.Substring(0, dataLengthToTrimForDate).Trim() + "/" + year;
 
                                 if (DateTime.TryParseExact(concatinateMMDDYYYY, inputDateFormat, CultureInfo.InvariantCulture,
                                     DateTimeStyles.None, out DateTime logDate))
                                 {
-                                    if (MaxDataLength >= 20)// For Log Level
+                                    if (MaxDataLength >= dataLengthToTrimForLogLevel)//check Max Data length For Log Level
                                     {
-                                        var logLevelFromFileLine = Line.Substring(15, 5).Trim().ToLower();
-                                        if (logLevel.Where(x => x.Data.Equals(logLevelFromFileLine)).Any())  ////////
+                                        var logLevelFromFileLine = Line.Substring(startingIndexToGetLogLevelInfoFromLogLine, maxLengthOfLogLevelField).Trim().ToLower();
+                                        if (logLevel.Where(x => x.Data.Equals(logLevelFromFileLine)).Any())
                                         {
 
                                             needToIncludeRow = true;
-                                            appendLogLevel = logLevelFromFileLine.ToUpper();
+                                            
+                                            appendLogLevelForTheDatWhichAreInSecondRowInLogFile = logLevelFromFileLine.ToUpper();
 
                                             // Add Log Level Info
                                             strOutput.Append(logLevelFromFileLine.ToUpper() + ",");
@@ -99,9 +112,10 @@ namespace LogToCSVConverter
                                             strOutput.Append(logDate.ToString(outputDateFormat) + ",");
 
                                             //Add Time Info
-                                            strOutput.Append(StringUtility.AddTimeToFile(Line, MaxDataLength, inputFormatForTime));
+                                            strOutput.Append(StringUtility.AddTimeFieldToCSVDataLine(Line, MaxDataLength, inputFormatForTime));
+
                                             //Add Log Data
-                                            strOutput.Append(StringUtility.AddLogData(Line, MaxDataLength).ToString());
+                                            strOutput.Append(StringUtility.AddLogDataToCSVDataLine(Line, MaxDataLength).ToString());
 
                                             outputListOfCSVData.Add(strOutput.ToString());
                                             continue;
@@ -116,12 +130,12 @@ namespace LogToCSVConverter
                                 }
                                 else// if we are not able to convert data to Date, Then We will simply add the whole row in List & will jump for next record 
                                 {
-                                    strOutput.Append(StringUtility.AppendDataWithoutTimeOrLogLevelReference(Line, outputListOfCSVData, appendContaxtNumber, appendLogLevel, needToIncludeRow));
+                                    strOutput.Append(StringUtility.AppendDataWithoutTimeOrLogLevelReference(Line, outputListOfCSVData, appendContaxtNumber, appendLogLevelForTheDatWhichAreInSecondRowInLogFile, needToIncludeRow));
                                 }
                             }
                             else// if we are not able to convert data to Date, Then We will simply add the whole row in List & will jump for next record 
                             {
-                                strOutput.Append(StringUtility.AppendDataWithoutTimeOrLogLevelReference(Line, outputListOfCSVData, appendContaxtNumber, appendLogLevel, needToIncludeRow));
+                                strOutput.Append(StringUtility.AppendDataWithoutTimeOrLogLevelReference(Line, outputListOfCSVData, appendContaxtNumber, appendLogLevelForTheDatWhichAreInSecondRowInLogFile, needToIncludeRow));
                             }
                         }
                     }
@@ -131,13 +145,15 @@ namespace LogToCSVConverter
             }
             else
             {
-                Console.WriteLine("File Not Found " + fullInputFilePath);
+                Log.Error("File Not Found " + fullInputFilePath);
             }
         }
 
     }
+        #endregion
 
-    #endregion
+        #endregion
+
 }
 
 

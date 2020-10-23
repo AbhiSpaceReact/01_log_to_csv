@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogToCSVConverter", "LogToCSVConverter\LogToCSVConverter.csproj", "{6713B932-F607-47FF-BE9E-B3EDA1F12D92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitLogToCSV", "NUnitTestProject1\NUnitLogToCSV.csproj", "{46A7D500-1506-40E5-ACAF-3067520B5A13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitLogToCSV", "NUnitTestProject1\NUnitLogToCSV.csproj", "{46A7D500-1506-40E5-ACAF-3067520B5A13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

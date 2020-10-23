@@ -1,6 +1,9 @@
 ﻿using LogToCSVConverter.Model;
+using Microsoft.Extensions.Logging;
+using Serilog;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -9,68 +12,52 @@ namespace LogToCSVConverter
     public class LogToCSVParser
     {
         #region Properties
+        List<string> _lstLogFiles;
+        List<InputParams> _lstLogLevel;
+        readonly string _outputFilePathForCSVFile;
+        #endregion
+
+        #region constructor
+        /// <summary>
+        /// Log to CSV Parser that takes listLogfiles,logLevel,CSVFilePath
+        /// </summary>
+        /// <param name="lstLogFiles">List of Log Files</param>
+        /// <param name="lstLogLevel">List of Log Level</param>
+        /// <param name="outputFilePathForCSVFile">OutPut File Path for CSV file</param>
+        public LogToCSVParser(List<string> lstLogFiles, List<InputParams> lstLogLevel, string outputFilePathForCSVFile)
+        {
+            _lstLogFiles = lstLogFiles;
+            _lstLogLevel = lstLogLevel;
+            _outputFilePathForCSVFile = outputFilePathForCSVFile;
+             Log.Information("Creating Constroctor for Log to CSV Parser");
+
+        }
         #endregion
 
         #region PrivateMethods
         #endregion
 
-        /// <summary>
-        /// Its reads the cammand line arguments and Get log files 
-        /// </summary>
-        /// <param name="args">inpunt parameter arguments as string</param>
-        /// <returns></returns>
         #region PublicMethods
-        public void LogParser(string[] args)
+       
+
+
+        ///// <summary>
+        /////  Parse log file to csv As per log level 
+        ///// </summary>
+        #region ParseLogFilesToCsvAsPerGivenLogLevel
+        public void ParseLogFilesToCsvAsPerGivenLogLevel()
         {
-            if ((args.Length == 1 && args[0].Trim().ToLower() == "--help"))
+
+            Log.Information("Exploring the log files");
+            foreach (var file in _lstLogFiles )
             {
-                Program.ShowHelpMessage();
+                Log.Information("Processing Log File " + file);
+                FileProcessor.AllDataProcessFromLogFile(file, _lstLogLevel, _outputFilePathForCSVFile);
             }
-            else if (args.Length > 0 && args.Length % 2 == 0) /// reminder == 0
-            {
-                List<InputParams> inputParams = StringUtility.ReadArgs(args);
-
-                if (inputParams.Count > 0)
-                {
-                    var inputParamsAreValid = StringUtility.ValidationForParams(inputParams);
-
-                    if (inputParamsAreValid)
-                    {
-                        Console.WriteLine("Get log files");
-
-                        string SourceDirectory = inputParams.Where(x => x.Command == "--log-dir").Take(1).ToList()[0].Data;
-                        var outputFilePath = inputParams.Where(x => x.Command.Trim().ToLower() == "--csv").Take(1).ToList()[0].Data;
-                        var logLevel = inputParams.Where(x => x.Command.Trim().ToLower() == "--log-level").ToList();
-
-                        List<string> lstFiles = FileUtility.GetLogFileList(SourceDirectory);
-                        Console.WriteLine("Exploring the log files");
-
-                        foreach (var file in lstFiles)
-                        {
-                            Console.WriteLine("Processing Log File " + file);
-                            FileProcessor.AllDataProcessFromLogFile(file, logLevel, outputFilePath);
-                        }
-                    }
-                    else
-                    {
-                        Program.ShowHelpMessageForInvalidInput();
-
-
-                    }
-                }
-                else
-                {
-                    Program.ShowHelpMessageForInvalidInput();
-
-                }
-            }
-            else
-            {
-                Program.ShowHelpMessageForInvalidInput();
-            }
-
         }
 
         #endregion
+        #endregion
     }
 }
+

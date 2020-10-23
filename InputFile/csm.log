@@ -1,0 +1,6 @@
+2020-10-22 15:12:06.954 +05:30 [INF] This is the general log info
+2020-10-22 15:15:19.123 +05:30 [INF] This is the general log info
+2020-10-22 15:18:42.670 +05:30 [INF] This is the general log info
+2020-10-22 15:18:50.334 +05:30 [ERR] Some error Occurred
+System.DivideByZeroException: Attempted to divide by zero.
+   at LogToCSVConverter.PSerilog.Main(String[] args) in D:\Office\OfficeAssignment\01_log_to_csv\LogToCSVConverter\LogToCSVConverter\PSerilog.cs:line 20

@@ -1,4 +1,5 @@
 ﻿using LogToCSVConverter.Model;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,8 +9,8 @@ using System.Text;
 
 namespace LogToCSVConverter
 {
-
-    public static class StringUtility
+    
+    public static class StringUtility 
     {
         #region Properties
         #endregion
@@ -20,17 +21,17 @@ namespace LogToCSVConverter
         #region PublicMethods
         
         /// <summary>
-        /// Log Data VAlidation and append data to CSV file
+        /// Log Data VAlidation and append data to CSV file 
         /// </summary>
         /// <param name="data">Read data from file as one string</param>
         /// <param name="MaxDataLength">Read Max data length from file</param>
         /// <returns></returns>
         #region LogDataValidationAndAppendDataForCSVFile
 
-        public static StringBuilder AddLogData(string data, int MaxDataLength)
+        public static StringBuilder AddLogDataToCSVDataLine(string data, int MaxDataLength) //.//AddLogData As String in the original string.
         {
             StringBuilder strOutput = new StringBuilder();
-            if (MaxDataLength >= 21)// For Log Data
+            if (MaxDataLength >= 21)// For Log Data                   //.//check string length in log file 
             {
                 var logInfo = data[21..MaxDataLength].Trim();
                 if (logInfo.Length > 1)
@@ -47,6 +48,7 @@ namespace LogToCSVConverter
                 }
             }
             return strOutput;
+            
         }
 
         /// <summary>
@@ -80,19 +82,24 @@ namespace LogToCSVConverter
         }
 
         /// <summary>
-        /// adds time to CSV data file 
+        /// adds time to CSV data line 
         /// </summary>
         /// <param name="data"> Read data from file as one string</param>
         /// <param name="MaxDataLength">Max Data length for input log file</param>
         /// <param name="inputFormatForTime">Input date formate for log file </param>
         /// <returns>it returns StringBuilder which contains formated time in "hh:mm tt"</returns>
-        public static StringBuilder AddTimeToFile(string data, int MaxDataLength, string inputFormatForTime)
+        public static StringBuilder AddTimeFieldToCSVDataLine(string data, int MaxDataLength, string inputFormatForTime) //.// Read data from Data as string and add original string 
+                                                                                                           
         {
             StringBuilder strOutput = new StringBuilder();
 
-            if (MaxDataLength >= 15)// Check length For Time
+            //int dataLengthToTrimForDate = 6;
+            int dataLengthToTrimForTime = 15;
+            int startingIndexToGetTImeInfoFromLogLine = 6;
+            int maxLengthOfTimeField = 8;
+            if (MaxDataLength >= dataLengthToTrimForTime)// Check length For Time              // here check string length in max Data length for Date 
             {
-                var timeDataFromFile = data.Substring(6, 8).Trim();
+                var timeDataFromFile = data.Substring(startingIndexToGetTImeInfoFromLogLine, maxLengthOfTimeField).Trim();         //Substring Method (startIndex,length)
 
                 if (DateTime.TryParse(timeDataFromFile, out DateTime concatinateTimeHHMMSS))
                 {
@@ -108,38 +115,11 @@ namespace LogToCSVConverter
         #endregion
 
         /// <summary>
-        /// Its reads the cammand line arguments and create command and data combination and append to a list or return List of arguments
-        /// </summary>
-        /// <param name="args">input parameter argument as string</param>
-        /// <returns>List of arguments<InputParams></returns>
-        #region ListOfInputParameters
-        public static List<InputParams> ReadArgs(string[] args)
-        {
-            List<InputParams> lstArgs = new List<InputParams>();
-            if (args.Length > 0) //Check lenght of argument
-            {
-                for (int i = 0; i < args.Length; i++)
-                {
-                    InputParams inputParams = new InputParams
-                    {
-                        Command = args[i],
-                        Data = args[++i]
-                    };
-
-                    lstArgs.Add(inputParams);
-                }
-            }
-            return lstArgs;
-        }
-        #endregion
-
-        /// <summary>
         /// runs validations -  check valid path. check empty string
         /// </summary>
         /// <param name="inputParams">Its contains list of input parameters witch contains command and data which is pass in arguments</param>
         /// <returns>if condition satisfy then return true or false</returns>
         #region ValidationForParams
-
         public static bool ValidationForParams(List<InputParams> inputParams)
         {
             List<string> lstLog = new List<string> { "info", "debug", "warn", "error", "trace" };
@@ -152,7 +132,7 @@ namespace LogToCSVConverter
             {
                 if (!Directory.Exists(sourceDirectory[0].Data)) // check empty string
                 {
-                    Console.WriteLine("No such Directory Exists " + sourceDirectory[0].Data);
+                    Log.Error("No such Directory Exists " + sourceDirectory[0].Data);
                     ret = 1;
                 }
                 if (!Directory.Exists(Path.GetDirectoryName(outputFilePath[0].Data)))
@@ -164,7 +144,7 @@ namespace LogToCSVConverter
                         if (item.Command == "--csv")
                         {
                             item.Data = destinationDirectory + "\\log.csv";
-                            Console.WriteLine("Giving default path for destination file " + item.Data);
+                            Log.Information("Giving default path for destination file " + item.Data);
                             break;
                         }
                     }
@@ -172,7 +152,7 @@ namespace LogToCSVConverter
                 }
                 if (Path.GetExtension(outputFilePath[0].Data) != ".csv")
                 {
-                    Console.WriteLine("Invalid file extension for destination file " + outputFilePath[0].Data);
+                    Log.Error("Invalid file extension for destination file " + outputFilePath[0].Data);
                     ret = 1;
                 }
                 if (logLevel.Count > 0)
@@ -181,7 +161,7 @@ namespace LogToCSVConverter
                     {
                         if (!lstLog.Contains(log.Data))
                         {
-                            Console.WriteLine("Invalid log level supplied " + log.Data);
+                            Log.Error("Invalid log level supplied " + log.Data);
                             ret = 1;
                         }
                     }
@@ -196,7 +176,6 @@ namespace LogToCSVConverter
                               // and the validation will be successfully done
 
         }
-
         #endregion
 
         /// <summary>
